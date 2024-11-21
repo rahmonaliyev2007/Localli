@@ -1,0 +1,41 @@
+$roboto: "Roboto", sans-serif;
+@mixin font-16{
+    font-size: 16px;
+    line-height: 24px;
+    color: $black;
+}
+@mixin font-15{
+    font-size: 15px;
+    line-height: 24px;
+    color: $black;
+}
+@mixin font-14{
+    font-size: 14px;
+    line-height: 18px;
+    color: $black;
+}
+@mixin font-12{
+    font-size: 12px;
+    line-height: 15px;
+    color: $black;
+}
+@mixin font-10{
+    font-size: 10px;
+    line-height: 12px;
+    color: $black;
+}
+
+@mixin heading{
+    font-size: 61px;
+    line-height: 73px;
+    color: $black;
+    font-weight: 400;
+    color: $black;
+}
+
+@mixin heading-top{
+    @include font-16();
+    text-align: center;
+    color: rgba(166, 166, 166, 1);
+    margin-top: 50px;
+}
